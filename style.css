@@ -6,19 +6,26 @@ body {
     overflow-x: hidden;
 }
 
-/* Sticky Nav */
+.gradient-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 20% 30%, #7c3aed, transparent 40%),
+                radial-gradient(circle at 80% 70%, #38bdf8, transparent 40%);
+    z-index: -1;
+}
+
 nav {
     position: sticky;
     top: 0;
     backdrop-filter: blur(10px);
-    background: rgba(15, 23, 42, 0.6);
-    z-index: 1000;
+    background: rgba(15, 23, 42, 0.7);
+    padding: 15px 40px;
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
-    padding: 15px 40px;
 }
 
 .nav-links a {
@@ -31,14 +38,9 @@ nav {
     color: #38bdf8;
 }
 
-.logo {
-    font-weight: 700;
-}
-
-/* Hero */
 .hero {
     text-align: center;
-    padding: 160px 20px 120px 20px;
+    padding: 180px 20px 120px;
 }
 
 .hero h1 {
@@ -47,75 +49,38 @@ nav {
 }
 
 .hero-sub {
-    margin-top: 20px;
     max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #94a3b8;
-    font-size: 1.1rem;
+    margin: 20px auto;
+    color: #cbd5e1;
 }
 
-/* Button */
-.btn {
-    display: inline-block;
-    margin-top: 30px;
-    padding: 12px 28px;
-    background: #38bdf8;
-    color: #0f172a;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-/* Sections */
 .section {
     padding: 100px 20px;
-}
-
-.container {
     max-width: 1000px;
     margin: auto;
 }
 
-/* Glassmorphism */
 .glass {
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(20px);
-    border-radius: 15px;
     padding: 40px;
-    box-shadow: 0 0 40px rgba(0,0,0,0.3);
+    border-radius: 15px;
 }
 
-/* Cards */
-.card {
+.project {
     margin-top: 30px;
 }
 
-/* Footer */
+.tech span {
+    display: inline-block;
+    margin: 8px;
+    padding: 8px 14px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 20px;
+}
+
 footer {
     text-align: center;
     padding: 40px;
-    color: #64748b;
-}
-
-/* Floating Blobs */
-.blob {
-    position: fixed;
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    filter: blur(150px);
-    z-index: -1;
-}
-
-.blob1 {
-    background: #38bdf8;
-    top: -100px;
-    left: -100px;
-}
-
-.blob2 {
-    background: #7c3aed;
-    bottom: -100px;
-    right: -100px;
+    color: #94a3b8;
 }
