@@ -4,115 +4,95 @@
     <meta charset="UTF-8">
     <title>Vineet Kumar | Agentic AI Engineer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Agentic AI Engineer specializing in healthcare automation, LLM systems, LangGraph orchestration, and analytics.">
+    <meta name="description" content="Agentic AI Engineer specializing in healthcare automation and LLM systems.">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- Floating Gradient Blobs -->
+<div class="blob blob1"></div>
+<div class="blob blob2"></div>
+
+<nav>
+    <div class="nav-container">
+        <div class="logo">Vineet Kumar</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+</nav>
+
 <section class="hero">
-    <div class="container">
-        <h1>Vineet Kumar</h1>
-        <p class="tagline">
-            Designing Agentic AI Systems that Automate Complex Healthcare Workflows
+    <div class="container" data-aos="fade-up">
+        <h1>Agentic AI Systems Architect</h1>
+        <p class="hero-sub">
+            Designing intelligent automation systems using LangChain, LangGraph, Vertex AI,
+            SQL, Python, and advanced analytics.
         </p>
-        <p class="intro">
-            AI Engineer with 9+ years of experience building LLM-powered agent systems,
-            low-code automation frameworks, advanced analytics pipelines, and
-            production-grade AI architectures using LangChain, LangGraph, and Vertex AI.
+        <a href="#projects" class="btn">Explore Work</a>
+    </div>
+</section>
+
+<section class="section" id="about">
+    <div class="container glass" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p>
+            AI Engineer with 9+ years of experience building LLM-powered agentic systems,
+            low-code automation frameworks, statistical analytics pipelines, and
+            production-grade healthcare AI architectures.
         </p>
-        <div class="buttons">
-            <a href="#projects" class="btn primary">View Projects</a>
-            <a href="#contact" class="btn outline">Contact</a>
+    </div>
+</section>
+
+<section class="section" id="projects">
+    <div class="container">
+        <h2 data-aos="fade-up">Selected Projects</h2>
+
+        <div class="card glass" data-aos="fade-up">
+            <h3>Agentic Prior Authorization Platform</h3>
+            <p>Multi-agent system with tool-use (SQL, policy retrieval, provider lookup) and structured routing logic across healthcare product lines.</p>
+        </div>
+
+        <div class="card glass" data-aos="fade-up">
+            <h3>Provider Performance Monitoring AI</h3>
+            <p>Event-driven analytics agents tracking denial rates, PMPM shifts, and statistical threshold alerts.</p>
+        </div>
+
+        <div class="card glass" data-aos="fade-up">
+            <h3>Healthcare Segmentation & Analytics</h3>
+            <p>Clustering, regression modeling, and hypothesis testing on claims and clinical datasets.</p>
         </div>
     </div>
 </section>
 
-<section class="section">
-    <div class="container">
-        <h2>Core Expertise</h2>
-        <div class="grid">
-            <div class="card">Agentic AI Architectures</div>
-            <div class="card">LangChain & LangGraph</div>
-            <div class="card">Google Vertex AI</div>
-            <div class="card">Low-Code AI Automation</div>
-            <div class="card">Healthcare Analytics</div>
-            <div class="card">SQL & Python Engineering</div>
-            <div class="card">Statistical Modeling (SAS)</div>
-            <div class="card">Event-Driven Monitoring Agents</div>
-        </div>
-    </div>
-</section>
-
-<section class="section dark" id="projects">
-    <div class="container">
-        <h2>Selected Projects</h2>
-
-        <div class="project">
-            <h3>Agentic Prior Authorization System</h3>
-            <p>
-                Designed multi-agent LLM system with tool-use (SQL queries, policy retrieval,
-                provider lookup) and structured routing logic across Radiology, Oncology,
-                MSK, and Sleep product lines.
-            </p>
-        </div>
-
-        <div class="project">
-            <h3>Provider Performance Monitoring Agent</h3>
-            <p>
-                Built event-driven AI monitoring system analyzing Requests/K,
-                Approvals/K, denial rates, and PMPM shifts with statistical thresholds
-                and automated alerts.
-            </p>
-        </div>
-
-        <div class="project">
-            <h3>Healthcare Patient Segmentation Framework</h3>
-            <p>
-                Applied clustering models (K-Means) and regression analytics to segment
-                patient populations and optimize product performance strategy.
-            </p>
-        </div>
-
-        <div class="project">
-            <h3>Clinical & Claims Analytics Engine</h3>
-            <p>
-                Performed hypothesis testing (ANOVA, T-tests, regression) on healthcare
-                claims datasets to identify drivers of utilization and cost variation.
-            </p>
-        </div>
-
-    </div>
-</section>
-
-<section class="section">
-    <div class="container">
-        <h2>Technology Stack</h2>
-        <div class="tech">
-            <span>Python</span>
-            <span>SQL</span>
-            <span>SAS</span>
-            <span>LangChain</span>
-            <span>LangGraph</span>
-            <span>Vertex AI</span>
-            <span>Machine Learning</span>
-            <span>Deep Learning</span>
-            <span>LLM APIs</span>
-            <span>Automation Systems</span>
-        </div>
-    </div>
-</section>
-
-<section class="section contact" id="contact">
-    <div class="container">
+<section class="section" id="contact">
+    <div class="container glass" data-aos="fade-up">
         <h2>Contact</h2>
         <p>Email: vineetkumarkhullar25@gmail.com</p>
-        <p>Location: Westborough, MA</p>
+        <p>Westborough, MA</p>
     </div>
 </section>
 
 <footer>
-    <p>© 2026 Vineet Kumar | Agentic AI Systems</p>
+    © 2026 Vineet Kumar | Agentic AI Systems
 </footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 900,
+    once: true
+  });
+</script>
 
 </body>
 </html>
